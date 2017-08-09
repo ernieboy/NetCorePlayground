@@ -8,5 +8,11 @@ namespace NetCorePlayground.Application.ViewModels
         public AddNewStudent()
         {
         }
+
+        public string FirstName
+        {
+            get;
+            set;
+        }
     }
 }

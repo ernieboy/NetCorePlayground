@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Threading.Tasks;
 using MediatR;
 
@@ -12,7 +13,8 @@ namespace NetCorePlayground.Application.MediatrNotifcations.Student
 
         public Task Handle(NewStudentAddedNotification notification)
         {
-            throw new NotImplementedException();
+            File.AppendAllText("handlers.log", "EmailNewStudentHandler");
+            return Task.CompletedTask;
         }
     }
 }
