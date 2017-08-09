@@ -1,14 +1,17 @@
-﻿using System;
-using System.IO;
+﻿using System.IO;
 using System.Threading.Tasks;
 using MediatR;
+using NetCorePlayground.Domain.AggregateRoots.StudentAggregate;
 
 namespace NetCorePlayground.Application.MediatrNotifcations.Student
 {
     public class SaveNewStudentHandler : IAsyncNotificationHandler<NewStudentAddedNotification>
     {
-        public SaveNewStudentHandler()
+        private IStudentRepository _studentRepository;
+
+        public SaveNewStudentHandler(IStudentRepository studentRepository)
         {
+            _studentRepository = studentRepository;
         }
 
         public Task Handle(NewStudentAddedNotification notification)
