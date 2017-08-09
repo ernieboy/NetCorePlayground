@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="EntityFramework\" />
+    <Folder Include="EntityFramework\Repositories\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NetCorePlayground.Domain\NetCorePlayground.Domain.csproj" />
+    <ProjectReference Include="..\NetCorePlayground.SharedKernel\NetCorePlayground.SharedKernel.csproj" />
+  </ItemGroup>
+</Project>

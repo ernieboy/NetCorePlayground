@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="AggregateRoots\" />
+    <Folder Include="Services\" />
+    <Folder Include="AggregateRoots\StudentAggregate\" />
+    <Folder Include="AggregateRoots\LecturerAggregate\" />
+    <Folder Include="AggregateRoots\CourseAggregate\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NetCorePlayground.SharedKernel\NetCorePlayground.SharedKernel.csproj" />
+  </ItemGroup>
+</Project>

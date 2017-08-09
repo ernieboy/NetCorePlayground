@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NetCorePlayground.Infrastructure\NetCorePlayground.Infrastructure.csproj" />
+    <ProjectReference Include="..\NetCorePlayground.Domain\NetCorePlayground.Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CommandHandlers\" />
+    <Folder Include="DomainEventHandlers\" />
+    <Folder Include="Validators\" />
+    <Folder Include="IntegrationEvents\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="Queries\" />
+    <Folder Include="MediatrNotifcations\" />
+    <Folder Include="MediatrNotifcations\Student\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="3.0.1" />
+  </ItemGroup>
+</Project>
