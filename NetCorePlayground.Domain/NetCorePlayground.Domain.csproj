@@ -12,6 +12,6 @@
     <Folder Include="AggregateRoots\CourseAggregate\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NetCorePlayground.SharedKernel\NetCorePlayground.SharedKernel.csproj" />
+    <ProjectReference Include="..\..\DotNetCoreToolKit\DotNetCoreToolKit.Library\DotNetCoreToolKit.Library.csproj" />
   </ItemGroup>
 </Project>

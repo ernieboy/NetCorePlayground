@@ -10,6 +10,5 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\NetCorePlayground.Domain\NetCorePlayground.Domain.csproj" />
-    <ProjectReference Include="..\NetCorePlayground.SharedKernel\NetCorePlayground.SharedKernel.csproj" />
   </ItemGroup>
 </Project>

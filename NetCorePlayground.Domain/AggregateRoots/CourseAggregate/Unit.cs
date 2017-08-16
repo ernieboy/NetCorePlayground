@@ -1,7 +1,7 @@
-﻿using System;
+﻿using DotNetCoreToolKit.Library.Models.Persistence;
 namespace NetCorePlayground.Domain.AggregateRoots.CourseAggregate
 {
-    public class Unit
+    public class Unit: Entity
     {
         public Unit()
         {

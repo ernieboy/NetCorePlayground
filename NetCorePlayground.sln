@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCorePlayground.Infrastru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCorePlayground.Web", "NetCorePlayground.Web\NetCorePlayground.Web.csproj", "{0F4A000A-0351-4453-A3B2-4A0E152A82A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCorePlayground.SharedKernel", "NetCorePlayground.SharedKernel\NetCorePlayground.SharedKernel.csproj", "{ACE01ACC-BAC8-417C-9FB3-D9C1DA81A3F1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCoreToolKit.Library", "..\DotNetCoreToolKit\DotNetCoreToolKit.Library\DotNetCoreToolKit.Library.csproj", "{A5F1C9E8-8362-4B67-A84D-7790ED774838}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +33,9 @@ Global
 		{0F4A000A-0351-4453-A3B2-4A0E152A82A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F4A000A-0351-4453-A3B2-4A0E152A82A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F4A000A-0351-4453-A3B2-4A0E152A82A4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ACE01ACC-BAC8-417C-9FB3-D9C1DA81A3F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ACE01ACC-BAC8-417C-9FB3-D9C1DA81A3F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ACE01ACC-BAC8-417C-9FB3-D9C1DA81A3F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ACE01ACC-BAC8-417C-9FB3-D9C1DA81A3F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5F1C9E8-8362-4B67-A84D-7790ED774838}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5F1C9E8-8362-4B67-A84D-7790ED774838}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5F1C9E8-8362-4B67-A84D-7790ED774838}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5F1C9E8-8362-4B67-A84D-7790ED774838}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

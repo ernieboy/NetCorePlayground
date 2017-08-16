@@ -1,9 +1,8 @@
-﻿using System;
-using NetCorePlayground.SharedKernel.Data;
+﻿using DotNetCoreToolKit.Library.Models.Persistence;
 
 namespace NetCorePlayground.Domain.AggregateRoots.CourseAggregate
 {
-    public class Course : IAggregateRoot
+    public class Course : Entity
     {
         public Course()
         {
